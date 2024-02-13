@@ -1,0 +1,136 @@
+.headerCont{
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    top: 0;
+    font-family: cursive;
+    text-align: center;
+    text-align: center;
+    padding: 0 1vmax;
+    font-size: 30px;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    width: -webkit-fill-available;
+    z-index: 100;
+    border-bottom: 1px solid rgb(211, 211, 211); 
+}
+
+.context{
+    margin-left: 20px;
+}
+
+.logoImg{
+    margin-top: 0;
+    width: 150px;
+    height: 100%;
+}
+
+.navBar{
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    right: 10vw;
+    padding: 1vmax 0;
+}
+
+.navBar > a{
+    text-decoration: none;
+}
+
+.navBar > a > div{
+    padding: 10px 5vw 10px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.navBar > a > svg, .navBar > svg{
+    padding: 10px 2vw 10px 0px;
+    color: rgb(0, 0, 0);
+}
+
+
+.toggle {
+    display: none;
+}
+
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 1vmax;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    position: fixed;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .options{
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .speedDial {
+        position: absolute;
+        right: 3vmax;
+        top: 1vmax;
+    }
+    
+    .speedDialIcon {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .context{
+        font-size: 30px;
+        height: 40px;
+    }
+
+    .speedDial {
+        position: absolute;
+        right: 1vmax;
+        top: 1vmax;
+    }
+    
+    .speedDialIcon {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    .context{
+        font-size: 22px;
+        text-align: center;
+        height: 30px;
+        padding: inherit;
+    }
+    .speedDial {
+        position: absolute;
+        right: 0.8vmax;
+        top: 1vmax;
+        width: 40px;
+    }
+    .speedDialIcon {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+}

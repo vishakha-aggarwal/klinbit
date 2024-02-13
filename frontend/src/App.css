@@ -1,0 +1,38 @@
+html{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+html::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f8fff9;
+}
+
+html::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #02924ff1;
+  border-radius: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.greenColor{
+  color: green !important;
+}
+
+.redColor{
+  color: red !important;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

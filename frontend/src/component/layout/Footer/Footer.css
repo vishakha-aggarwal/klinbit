@@ -1,0 +1,24 @@
+footer {
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    position: relative;
+    width: -webkit-fill-available;
+    z-index: 100;
+    box-shadow: -1px 10px 10px gray;
+    border-top: 1px solid rgb(207, 207, 207); 
+}
+
+.copyright{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){    
+    .copyright{
+        font-size: 12px;
+    }
+    
+}
