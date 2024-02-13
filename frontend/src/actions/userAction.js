@@ -13,7 +13,7 @@ import {
     CLEAR_ERRORS,
 } from "../constants/userConstants";
 import axios from "axios";
-const api = "http://localhost:5000";
+const api = "https://klinbit.vercel.app";
 
 // Login user
 export const login = (email, password) => async (dispatch) => {

@@ -8,7 +8,7 @@ import {
     CLEAR_ERRORS,
 } from "../constants/uploadImageConstants";
 import axios from "axios";
-const api = "http://localhost:5000";
+const api = "https://klinbit.vercel.app";
 
 // uploadImage
 export const uploadImage = (inputData) => async (dispatch) => {
