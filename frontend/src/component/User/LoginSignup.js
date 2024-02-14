@@ -52,8 +52,6 @@ const LoginSignup = () => {
         myForm.append("name", name);
         myForm.append("email", email);
         myForm.append("password", password);
-        console.log(myForm.get("name"));
-        console.log(myForm.keys());
         dispatch(register(myForm));
     };
 

@@ -13,8 +13,6 @@ const api = "https://klinbit.vercel.app";
 // uploadImage
 export const uploadImage = (inputData) => async (dispatch) => {
     
-    console.log(inputData.get("username"));
-    console.log(inputData.get("image"));
     try {
         dispatch({ type: UPLOAD_IMAGE_REQUEST });
         const config = { method: "POST", headers: { "Content-Type": "multipart/form-data"}, withCredentials: 'true', credentials: 'include'};
